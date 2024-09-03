@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "fritz-post/text",
+  "version": "1.0.7",
+  "title": "Fritz Default Block, Text",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Fritz Default Block, Text",
+  "supports": {
+    "align": true
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "fritz-post",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

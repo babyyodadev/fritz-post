@@ -1,0 +1,1 @@
+console.log("Hello World! (from fritz-custom-post text-block)");

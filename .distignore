@@ -1,0 +1,9 @@
+node_modules/**
+src/
+.editorconfig
+.git
+.gitignore
+*.sql
+*.tar.gz
+*.zip
+.DS_Store
